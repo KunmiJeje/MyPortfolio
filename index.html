@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunmi Jeje | Young Python Programmer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body class="font-sans bg-white text-gray-800">
+    <custom-navbar></custom-navbar>
+    
+    <!-- Hero Section -->
+    <section id="hero" class="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-600 to-blue-800 text-white py-20 px-4">
+        <div class="container mx-auto text-center">
+            <img src="http://static.photos/technology/640x360/42" alt="Kunmi Jeje" class="w-98 h-98 rounded-full mx-auto mb-6 border-4 border-white shadow-lg">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Hi, I'm Kunmi Jeje</h1>
+            <p class="text-xl md:text-2xl max-w-2xl mx-auto mb-8">A 13-year-old Python programmer passionate about building creative solutions and fun projects with code.</p>
+            <div class="flex gap-4 justify-center">
+                <a href="#projects" class="bg-white text-blue-700 hover:bg-blue-50 px-6 py-3 rounded-lg font-medium transition duration-300 shadow-md">View My Projects</a>
+                <a href="https://drive.google.com/drive/folders/1mh97hLPFHteMTiMCO3Nnt2zkLYbvsB_b?usp=sharing" class="border-2 border-white hover:bg-white hover:text-blue-700 px-6 py-3 rounded-lg font-medium transition duration-300">Download Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-4 bg-white">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-3xl font-bold text-center mb-12 text-blue-800">About Me</h2>
+            <div class="flex flex-col md:flex-row gap-12 items-center">
+                <div class="md:w-1/2">
+                    <p class="text-lg mb-6">I'm a young and enthusiastic Python programmer who started coding at a very early age (7 years old). I enjoy solving problems, building mini projects, and creating games using Python and Tkinter.</p>
+                    <p class="text-lg mb-6">I'm continuously learning, experimenting, and improving my programming skills with every project I build.</p>
+                </div>
+                <div class="md:w-1/2 bg-red-50 p-8 rounded-xl border border-red-200">
+                    <h3 class="text-2xl font-bold mb-4 text-red-600">Skills & Tools</h3>
+                    <ul class="grid grid-cols-2 gap-4">
+                        <li class="flex items-center gap-2">
+                            <i data-feather="code" class="text-blue-600"></i>
+                            <span>Python</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-feather="code" class="text-blue-600"></i>
+                            <span>Tkinter (GUI)</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-feather="code" class="text-blue-600"></i>
+                            <span>Google Workspace</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-feather="git-branch" class="text-blue-600"></i>
+                            <span>Git & GitHub</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-feather="database" class="text-blue-600"></i>
+                            <span>File handling</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-feather="search" class="text-blue-600"></i>
+                            <span>Debugging and Testing</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-4 bg-red-200">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-3xl font-bold text-center mb-12 text-blue-800">My Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-blue-700">Digital Clock</h3>
+                        <p class="text-gray-600 mb-4">A digital clock is a timekeeping device that shows the time using numbers (digits) instead of hands on a dial. It usually displays hours, minutes, and sometimes seconds on an electronic screen, often using LED or LCD technology.</p>
+                        <div class="flex gap-3">
+                            <a href="https://github.com/KunmiJeje/DigitalClock.git" class="text-sm bg-blue-600 hover:bg-blue-200 text-white px-3 py-1 rounded">GitHub</a>
+                            <a href="#" class="text-sm bg-red-600 hover:bg-red-200 text-white px-3 py-1 rounded">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-blue-700">TicTacToe</h3>
+                        <p class="text-gray-600 mb-4">Tic Tac Toe is a classic two-player game played on a 3×3 grid. Players take turns marking X or O in empty squares, aiming to get three of their symbols in a row—horizontally, vertically, or diagonally. It’s a simple yet strategic game of logic, quick thinking, and anticipation that’s easy to learn and fun for all ages.</p>
+                        <div class="flex gap-3">
+                            <a href="https://github.com/KunmiJeje/TheColourGame.git" class="text-sm bg-blue-600 hover:bg-blue-200 text-white px-3 py-1 rounded">GitHub</a>
+                            <a href="#" class="text-sm bg-red-600 hover:bg-red-200 text-white px-3 py-1 rounded">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-blue-700">Mr. Stickman Game</h3>
+                        <p class="text-gray-600 mb-4">Mr Stickman is trapped in the lair of Dr. Kunmi, and you want to help him escape through the exit on the top floor. • The game has a stick figure that can run from left to right and jump up. There are platforms on each floor that he must jump to. • The goal of the game is to reach the door to the exit, before it’s too late and the game ends.</p>
+                        <div class="flex gap-3">
+                            <a href="https://github.com/KunmiJeje/MrStickman.git" class="text-sm bg-blue-600 hover:bg-blue-200 text-white px-3 py-1 rounded">GitHub</a>
+                            <a href="#" class="text-sm bg-red-600 hover:bg-red-200 text-white px-3 py-1 rounded">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more projects here -->
+            </div>
+            <div class="text-center mt-12">
+                <a href="portfolio.html" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium inline-block transition duration-300">View Full Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Access Section -->
+    <section id="portfolio" class="py-20 px-4 bg-blue-600 text-white">
+        <div class="container mx-auto max-w-4xl text-center">
+            <h2 class="text-3xl font-bold mb-6">Access My Portfolio</h2>
+            <p class="text-xl mb-8">You can explore or download the source code of my projects on my Google Drive. Each project folder contains detailed code files, documentation, and setup instructions.</p>
+            <a href="https://drive.google.com/drive/folders/1mh97hLPFHteMTiMCO3Nnt2zkLYbvsB_b?usp=sharing" class="bg-white text-blue-700 hover:bg-blue-50 px-6 py-3 rounded-lg font-medium inline-block transition duration-300 shadow-md">Open Google Drive Portfolio</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-4 bg-white">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-3xl font-bold text-center mb-12 text-blue-800">Get in Touch</h2>
+            <p class="text-center text-lg mb-8 max-w-2xl mx-auto">I'm open to collaborations, mentorship, or small projects to work on. If you'd like to reach me for coding gigs, partnership, or feedback, please get in touch below.</p>
+        
+            <div class="bg-red-50 p-8 rounded-xl border border-red-200">
+            <form class="max-w-lg mx-auto">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700 mb-2">Name</label>
+                    <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700 mb-2">Email</label>
+                    <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-gray-700 mb-2">Message</label>
+                    <textarea id="message" rows="5" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                </div>
+                <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium w-full transition duration-300">Send Message</button>
+            </form>
+            </div>
+        </div>
+    </section>
+
+    <custom-footer></custom-footer>
+
+    <script src="navbar.js"></script>
+    <script src="footer.js"></script>
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+</body>
+</html>
